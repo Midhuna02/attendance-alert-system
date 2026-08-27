@@ -188,8 +188,8 @@ python test_email_config.py
 ```
 
 The system is configured to send alerts to:
-- **Teacher**: srimidhuna47@gmail.com
-- **Parent**: 02midhuna@gmail.com
+- **Teacher**: myour-email@example.com
+- **Parent**: your-email@example.com
 
 **Alert Triggers:**
 - 😴 Eyes closed for **5 seconds** → Sleeping alert

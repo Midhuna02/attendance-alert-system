@@ -121,11 +121,6 @@ SMART CLASSROOM MONITORING SYSTEM - ACTIVE
 
 ## 📧 **Email Alerts:**
 
-### **When Configured:**
-```
-✓ Email sent to srimidhuna47@gmail.com
-✓ Email sent to 02midhuna@gmail.com
-```
 
 ### **If Not Configured:**
 ```
@@ -137,7 +132,7 @@ SMART CLASSROOM MONITORING SYSTEM - ACTIVE
 **To Configure:**
 1. Open: `config/config.yaml`
 2. Find line 54: `email_password: "YOUR_APP_PASSWORD_HERE"`
-3. Replace with: `email_password: "zxnmzvvwCvbkkqest"` (your App Password)
+3. Replace with: `email_password: "password"` (your App Password)
 4. Save and restart
 
 ---
@@ -184,14 +179,7 @@ python face_recognition.py train
 2. Line 54: Change `YOUR_APP_PASSWORD_HERE` to your App Password
 3. Save and restart
 
-**To Get App Password:**
-1. Visit: https://myaccount.google.com/apppasswords
-2. Sign in with srimidhuna47@gmail.com
-3. Generate App Password for "Mail"
-4. Copy 16-character password
-5. Paste in config.yaml
 
----
 
 ### **Problem 4: Talking Detected When Mouth Closed**
 **Cause:** Old code version
